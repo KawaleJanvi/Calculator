@@ -1,0 +1,65 @@
+html{
+    background-color: rgb(223, 222, 222);
+}
+.header h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+#container{
+    height: 75vh;
+    width: 30%;
+    background-color: rgb(248, 248, 248);
+    margin: 6vh 35%;
+    border-radius: 10px;
+    /* mix-blend-mode: overlay; */
+    position: absolute;
+}
+
+#container #input{
+    height: 125px;
+    width: 100%;
+    border: none;
+    background-color: rgba(220, 20, 60, 0.5);
+    border-radius: 10px 10px 0 0 ;
+    font-size: xxx-large;
+    text-align: right;
+    color: rgb(94, 94, 94);
+    padding-right: 4%;
+}
+#container .op{
+    font-size: 1.3rem;
+}
+#container button{
+    border-radius: 50%;
+    border: none;
+    height: 11vh;
+    margin: 2.5%;
+    width: 20%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background-color: rgba(212, 211, 211,0.8);
+    color: rgb(94, 94, 94);
+}
+*:focus {
+    outline: none;
+}
+svg { 
+    display: inline-block; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+} 
+.containersvg { 
+    display: inline-block; 
+    position: absolute; 
+    width: 100%; 
+    padding-bottom: 100%; 
+    vertical-align: middle; 
+    overflow: hidden; 
+    top: 0; 
+    left: 0; 
+} 
+body { 
+    overflow: hidden; 
+} 
